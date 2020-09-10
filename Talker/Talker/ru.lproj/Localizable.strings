@@ -4,3 +4,11 @@
 "StartGoogleLabel.Title" = "Get started with";
 "SignUpLabel.Title" = "Sign up with";
 "SignInLabel.Title" = "Sign in with";
+"SignUpController.Button.SignUp.Title" = "Регистрация";
+"SignUpController.TextFiled.Email.Placeholder" = "Email";
+"SignUpController.TextFiled.Password.Placeholder" = "Пароль";
+"SignUpController.TextFiled.ConfirmPassword.Placeholder" = "Подтвердите пароль";
+"SignInController.Button.SignIn.Title" = "Войти";
+"SignInController.TextFiled.Email.Placeholder" = "Email";
+"SignInController.TextFiled.Password.Placeholder" = "Пароль";
+

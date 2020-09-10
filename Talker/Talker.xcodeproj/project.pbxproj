@@ -12,6 +12,10 @@
 		2D0F438525083CE0005C0E92 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F438425083CE0005C0E92 /* String+Localization.swift */; };
 		2D0F438725083ED8005C0E92 /* UILabel+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F438625083ED8005C0E92 /* UILabel+Utils.swift */; };
 		2D0F438A25084A8A005C0E92 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D0F438825084A8A005C0E92 /* Localizable.strings */; };
+		2D38A7F4250ACC8900DCAD5E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38A7F3250ACC8900DCAD5E /* SignUpViewController.swift */; };
+		2D38A7F6250ACD0D00DCAD5E /* UITextFIeld+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38A7F5250ACD0D00DCAD5E /* UITextFIeld+Utils.swift */; };
+		2D38A7F9250ACD6900DCAD5E /* DSAnimatedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38A7F8250ACD6900DCAD5E /* DSAnimatedTextField.swift */; };
+		2D38A7FC250AD53600DCAD5E /* SignInVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38A7FB250AD53600DCAD5E /* SignInVIewController.swift */; };
 		2D88E94C25081EA8008AADF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D88E94B25081EA8008AADF1 /* AppDelegate.swift */; };
 		2D88E94E25081EA8008AADF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D88E94D25081EA8008AADF1 /* SceneDelegate.swift */; };
 		2D88E95025081EA8008AADF1 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D88E94F25081EA8008AADF1 /* AuthViewController.swift */; };
@@ -29,6 +33,10 @@
 		2D0F438925084A8A005C0E92 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2D0F438B25084AB2005C0E92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2D0F438C25084B12005C0E92 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2D38A7F3250ACC8900DCAD5E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		2D38A7F5250ACD0D00DCAD5E /* UITextFIeld+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextFIeld+Utils.swift"; sourceTree = "<group>"; };
+		2D38A7F8250ACD6900DCAD5E /* DSAnimatedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSAnimatedTextField.swift; sourceTree = "<group>"; };
+		2D38A7FB250AD53600DCAD5E /* SignInVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVIewController.swift; sourceTree = "<group>"; };
 		2D88E94825081EA8008AADF1 /* Talker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Talker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D88E94B25081EA8008AADF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D88E94D25081EA8008AADF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D38A7F0250ACC2100DCAD5E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D38A7F1250ACC3C00DCAD5E /* Authentification */,
+				2D38A7FA250AD4D500DCAD5E /* SignIn */,
+				2D38A7F2250ACC4E00DCAD5E /* SignUp */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2D38A7F1250ACC3C00DCAD5E /* Authentification */ = {
+			isa = PBXGroup;
+			children = (
+				2D88E94F25081EA8008AADF1 /* AuthViewController.swift */,
+			);
+			path = Authentification;
+			sourceTree = "<group>";
+		};
+		2D38A7F2250ACC4E00DCAD5E /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				2D38A7F3250ACC8900DCAD5E /* SignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		2D38A7FA250AD4D500DCAD5E /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				2D38A7FB250AD53600DCAD5E /* SignInVIewController.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
 		2D88E93F25081EA8008AADF1 = {
 			isa = PBXGroup;
 			children = (
@@ -72,7 +114,7 @@
 			children = (
 				2D88E94B25081EA8008AADF1 /* AppDelegate.swift */,
 				2D88E94D25081EA8008AADF1 /* SceneDelegate.swift */,
-				2D88E94F25081EA8008AADF1 /* AuthViewController.swift */,
+				2D38A7F0250ACC2100DCAD5E /* Controllers */,
 				2D88E95425081EA9008AADF1 /* Assets.xcassets */,
 				2D0F438825084A8A005C0E92 /* Localizable.strings */,
 				2D88E95925081EA9008AADF1 /* Info.plist */,
@@ -91,6 +133,8 @@
 				2D0F437E25082E79005C0E92 /* UIFont+Utils.swift */,
 				2D0F438425083CE0005C0E92 /* String+Localization.swift */,
 				2D0F438625083ED8005C0E92 /* UILabel+Utils.swift */,
+				2D38A7F5250ACD0D00DCAD5E /* UITextFIeld+Utils.swift */,
+				2D38A7F8250ACD6900DCAD5E /* DSAnimatedTextField.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -171,7 +215,11 @@
 				2D88E95025081EA8008AADF1 /* AuthViewController.swift in Sources */,
 				2D88E960250821AF008AADF1 /* AuthViewControllerProvider.swift in Sources */,
 				2D88E94C25081EA8008AADF1 /* AppDelegate.swift in Sources */,
+				2D38A7F9250ACD6900DCAD5E /* DSAnimatedTextField.swift in Sources */,
 				2D88E94E25081EA8008AADF1 /* SceneDelegate.swift in Sources */,
+				2D38A7F6250ACD0D00DCAD5E /* UITextFIeld+Utils.swift in Sources */,
+				2D38A7FC250AD53600DCAD5E /* SignInVIewController.swift in Sources */,
+				2D38A7F4250ACC8900DCAD5E /* SignUpViewController.swift in Sources */,
 				2D0F437D25082B77005C0E92 /* UIView+Shadow.swift in Sources */,
 				2D0F438725083ED8005C0E92 /* UILabel+Utils.swift in Sources */,
 				2D88E96425082586008AADF1 /* UIButton+Utils.swift in Sources */,
